@@ -2,72 +2,24 @@
 <html>
   <head>
       <meta charset="utf-8" http-equiv="content-type" />
+      <link rel="stylesheet" href="style.css">
       <style>
-      body{
-        text-transform: capitalize;
-        height: 100vh;
-        background: linear-gradient(45deg,#333 50%, #5ca 50%);
-        background: -webkit-linear-gradient(45deg,#333 50%, #5ca 50%);
-        background: -moz-linear-gradient(45deg,#333 50%, #5ca 50%);
-      }
-        #page{
-          width: 160px;
-          height: 20px;
-          padding: 5px;
-          border-left: #fc5 5px solid;
-          border-right: #fc5 5px solid;
-          color: #fff;
-          font: 18px "arial";
-          text-align: center;
-          line-height: 20px;
-          position: absolute;
-          background: rgba(0, 0, 0, 0.5);
-          display: none;
-        }
-        #box{
-          width: 30px;
-          height: 30px;
-          opacity: 0.5;
-          padding: 0px;
-          background: transparent;
-          position: absolute;
-          border-radius: 50%;
-          border:5px solid #fc5;
-          box-sizing: border-box;
-          display: none;
-        }
-        #box div{
-          width: 10px;
-          height: 10px;
-          background: transparent;
-          position: relative;
-          left: calc(50% - 5px);
-          top: calc(50% - 5px);
-          border-radius: 50%;
-          border:3px solid #f5c;
-          box-sizing: border-box;
-        }
-        .text{
-          width: 700px;
-          height: 30px;
-          padding: 20px;
-          font: 26px "arial";
-          color: #333;
-          margin: 20px auto;
-          background: rgba(255, 255, 255, 0.5);
-        }
+
 
       </style>
   </head>
 
   <body>
-    <div class="text">click to get the mouse position</div>
-    <div class="text"></div>
-    <div class="text"></div>
+    <div class="container">
+      <div class="text">click to get the mouse position</div>
+      <div class="text"></div>
+      <div class="text"></div>
+    </div>
+
     <div id="page"></div>
     <div id="box">
-    <div></div>
-  </div>
+      <div></div>
+    </div>
 
     <script src="jquery.js"></script>
     <script src="jquery.transform2d.js"></script>
