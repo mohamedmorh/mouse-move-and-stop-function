@@ -1,4 +1,4 @@
-body{
+body{ 
     text-transform: capitalize;
     height: 100vh;
     background: linear-gradient(45deg,#333 50%, rgb(86, 19, 120) 50%);
